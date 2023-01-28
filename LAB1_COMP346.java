@@ -9,7 +9,7 @@ public class LAB1_COMP346 extends Thread {
         thread1.start();
         //Set priority to 1
         thread1.setPriority(1);
-        //
+        //print priority 
         int priority = thread1.getPriority();
         System.out.println("Thread priority: " + priority);
         //Thread sleep: pause the execution of the current thread for a specified time in milliseconds.
